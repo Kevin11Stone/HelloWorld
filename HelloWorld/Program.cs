@@ -10,6 +10,15 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
+            DisplayGreeting();
+            Console.ReadKey();
+        }
+
+        /// <summary>
+        /// Displays greeting to user
+        /// </summary>
+        static void DisplayGreeting()
+        {
             Console.WriteLine("Hello World!");
         }
     }
