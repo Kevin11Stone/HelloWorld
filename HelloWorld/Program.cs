@@ -14,6 +14,9 @@ namespace HelloWorld
             Console.ReadKey();
         }
 
+        /// <summary>
+        /// Displays greeting to user
+        /// </summary>
         static void DisplayGreeting()
         {
             Console.WriteLine("Hello World!");
